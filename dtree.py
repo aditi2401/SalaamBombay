@@ -11,7 +11,7 @@ from sklearn import metrics
 from sklearn.metrics import confusion_matrix, classification_report,plot_confusion_matrix
 #from imblearn.under_sampling import RandomUnderSampler
 import warnings
-warnings.filterwarnings(True)
+warnings.filterwarnings("ignore")
 
 
 df=pd.read_csv('https://raw.githubusercontent.com/kaurpreet578/D_tree/main/diabetes.csv')
